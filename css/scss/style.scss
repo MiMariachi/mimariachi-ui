@@ -2,7 +2,7 @@
 * Template Name: Mi Mariachi
 * Template Author: mimariachicr.com
 * Tempalte URI: https://mimariachicr.com/
-* License: https://creativecommons.org/licenses/by/3.0/
+* License: https://mimariachicr.com
 */
 @import "bootstrap/functions";
 @import "bootstrap/variables";
@@ -76,7 +76,7 @@ a {
   }
 }
 
-.untree_co--site-section {
+.styles--site-section {
   padding: 7rem 0;
   position: relative;
   clear: both;
@@ -189,7 +189,7 @@ a {
   }
 }
 
-.untree_co--site-hero {
+.styles--site-hero {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -703,7 +703,7 @@ a {
   left: 0;
   transition: 0.3s all ease;
 
-  .untree_co--site-nav {
+  .styles--site-nav {
     padding-top: 30px;
     padding-bottom: 30px;
     position: fixed;
@@ -740,7 +740,7 @@ a {
       z-index: 1;
       position: relative;
     }
-    .untree_co--site-logo {
+    .styles--site-logo {
       font-size: 1.3rem;
       color: $white;
       font-weight: 700;
@@ -903,7 +903,7 @@ a {
       }
     }
     &.dark {
-      .untree_co--site-logo {
+      .styles--site-logo {
         color: $black;
       }
       .site-nav-ul {
@@ -928,7 +928,7 @@ a {
     }
   }
   &.is-sticky {
-    .untree_co--site-nav {
+    .styles--site-nav {
       background: $featured-bg;
       box-shadow: 0 2px 10px 0 rgba($black, 0.05);
       @include media-breakpoint-up(lg) {
@@ -978,7 +978,7 @@ a {
 }
 
 /* Mobile nav */
-.untree_co--site-mobile-menu {
+.styles--site-mobile-menu {
   // display: none;
 
   position: fixed;
@@ -1118,7 +1118,7 @@ a {
   }
 }
 
-.untree_co--site-wrap {
+.styles--site-wrap {
   width: calc(100%);
   transition: 1s transform cubic-bezier(0.23, 1, 0.32, 1);
   .offcanvas & {
@@ -1786,7 +1786,7 @@ footer {
 }
 
 /*PRELOADING------------ */
-#untree_co--overlayer {
+#styles--overlayer {
   width: 100%;
   height: 100%;
   position: fixed;

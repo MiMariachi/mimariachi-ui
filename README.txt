@@ -1,9 +1,9 @@
 Template Name: Mi Mariachi
 Template Author: mimariachicr.com
-Template License: https://creativecommons.org/licenses/by/3.0/
+Template License: https://mimariachicr.com
 Author URI: https://mimariachicr.com/
 
-Twitter: https://twitter.com/Untree_co
+
 Facebook: https://web.facebook.com/mimariachicr.com/
 
 
