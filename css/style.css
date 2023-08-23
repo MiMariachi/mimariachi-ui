@@ -2364,3 +2364,65 @@ footer .form-subscribe .form-control:focus {
   opacity: 0.7; /* Adjust opacity as needed */
   z-index: -1;
 }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.whats-float {
+  position: fixed;
+  transform: translate(108px, 0px);
+  top: 25%;
+  right: 0;
+  width: 150px;
+  overflow: hidden;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 4px 0 0 4px;
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+  vertical-align: middle;
+}
+.whats-float a span {
+  color: white;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  position: absolute;
+  line-height: 16px;
+  font-weight: bolder;
+}
+
+.whats-float i {
+  font-size: 30px;
+  color: white;
+  line-height: 30px;
+  padding: 10px;
+  transform: rotate(0deg);
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+}
+
+.whats-float:hover {
+  color: #ffffff;
+  transform: translate(0px, 0px);
+}
+
+.whats-float:hover i {
+  transform: rotate(360deg);
+}
